@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.work.myapplication.MainActivity">
+
+    <!--<TextView
+        android:id="@+id/tv_switch_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/holo_green_dark"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="开"
+        android:textColor="@android:color/white"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tv_switch_of"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/holo_red_dark"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="关"
+        android:textColor="@android:color/white"
+        android:textSize="30dp" />-->
+
+
+    <!--<Switch
+        android:id="@+id/st_update_in_wifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="15dp"
+        android:switchMinWidth="0dp"
+        android:textOff=""
+        android:textOn=""
+        android:thumb="@drawable/new_switch_thumb_selector"
+        android:thumbTextPadding="16dp"
+        android:track="@drawable/new_switch_track_selector" />-->
+    <ToggleButton
+        android:id="@+id/st_update_in_wifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="15dp"
+        android:textOff="关闭"
+        android:disabledAlpha="11"
+        android:textOn="打开" />
+
+   <!-- <TextView
+        android:id="@+id/not_default_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:padding="30dp"
+        android:text="not_default_app"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="40dp" />
+    <Button
+        android:id="@+id/change_default_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="change_default_app"
+        />-->
+
+    <TextView
+        android:id="@+id/tv_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:padding="30dp"
+        android:text="设置"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="40dp" />
+
+</RelativeLayout>
